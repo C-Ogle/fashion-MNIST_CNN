@@ -20,5 +20,5 @@ The CNN used here classifies fashion-MNIST images into one of the following ten 
 10. Ankle Boot
 
 
-The notebook begins by training a simple CNN as a baseline, and then uses this same CNN structure to perform a factorial experiment using a small selection of values for the three parameters listed above. 
+The notebook begins by training a simple CNN as a baseline, and then uses this same CNN structure to perform a factorial experiment using a small selection of values for the three parameters listed above. This is accomplished using Python's itertools library to generate all possible combinations of the various parameter values specified. This results in a total of 12 networks of varying architecture.
 Afterwards, the results of this experiment and the key takeaways are discussed. Additionally, a brief explanation of the function of each of these parameters is included for quick reference.
